@@ -27,5 +27,12 @@ public class PlayerControls : MonoBehaviour
             rb.velocity = Vector2.up * velocity;
         }
 
-    }
+        private void OnCollisionEnter2D(Collision2D collision) 
+        {
+            if(collision.gameObject.tag === "HighSpike" || collision.gameObject.tag == "LowSpike" || collision.gameObject.tag == "Ground") 
+            {
+
+            }
+        }
+}
 }
