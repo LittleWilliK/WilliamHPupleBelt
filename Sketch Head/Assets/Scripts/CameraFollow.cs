@@ -7,7 +7,7 @@ public class CameraFollow : MonoBehaviour
     [Header ("Target Object")]
     public Transform target;
     // Start is called before the first frame update
-    void Start()
+    void Update()
     {
         if (target.position.y > transform.position.y) 
         {
