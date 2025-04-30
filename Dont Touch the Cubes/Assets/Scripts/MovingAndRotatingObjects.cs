@@ -5,9 +5,9 @@ using UnityEngine;
 public class MovingAndRotatingObjects : MonoBehaviour
 {
     [Header("Default Movement Speed")]
-    public float moveSpeed = 10f;
+    public float moveSpeed = 100f;
     [Header("Default Rotation Speed")]
-    public float rotateSpeed = 50f;
+    public float rotateSpeed = 2000f;
     // Start is called before the first frame update
     void Start()
     {
