@@ -186,4 +186,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: -3740589542451079450}
-  shrinkSpeed: 3
+  shrinkSpeed: 1

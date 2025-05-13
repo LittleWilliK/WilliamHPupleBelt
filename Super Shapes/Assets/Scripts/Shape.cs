@@ -21,6 +21,7 @@ public class Shape : MonoBehaviour
         transform.localScale -= Vector3.one * shrinkSpeed * Time.deltaTime;
         if (transform.localScale.x < 0.05f) {
             Destroy(gameObject);
+            Score.score++;
         }
     }
 }

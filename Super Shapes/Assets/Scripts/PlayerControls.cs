@@ -22,6 +22,6 @@ public class PlayerControls : MonoBehaviour
         transform.RotateAround(Vector3.zero, Vector3.forward, movement * Time.fixedDeltaTime * -moveSpeed);
     }
     private void OnTriggerEnter2D(Collider2D collision) {
-        Time.timeScale = 0;
+        GameObject.Find("GameController").GetComponent<GameController>().GameOver();
     }
 }
